@@ -53,6 +53,7 @@ jobs:
     deploy:
         environment:
             name: github-pages
+            url: https://image.allenice.com/
         needs: build
         runs-on: ubuntu-latest
         name: Deploy
